@@ -1,0 +1,36 @@
+{
+  "pt": [
+    {
+      "company": "Rancho Soluções em Tecnologia",
+      "position": "Full Stack Developer",
+      "duration": { "start": "Fevereiro, 2019", "finish": "Setembro, 2022" },
+      "summary": "Contexto: aplicação iRancho, um software para gestão de pecuária de corte que consiste de uma single page application (SPA) com parte do seu funcionamento offline para a coleta de dados integrado a uma API REST.",
+      "bullet_points": [
+        "Correção de bugs, desenvolvimento de melhorias e novas features no projeto;",
+        "Supervisão e orientação a desenvolvedores junior;",
+        "Implementação de novos módulos no sistema, desenvolvendo telas no frontend, serviços na API e modelando novas tabelas no banco de dados;",
+        "Documentação da API com Swagger e desenvolvimento de uma integração para acesso à mesma por sistemas terceiros;",
+        "Teste e homologação de uma nova aplicação baseada em blockchain para armazenamento de dados do gado;",
+        "Desenvolvimento de integração entre API do iRancho com a nova aplicação baseada em blockchain;"
+      ],
+      "skills": "JavaScript · Sass · Bootstrap · VueJS · NodeJs · Express.js · MySQL · Sequelize.js · Blockchain: Hyperledger Fabric" 
+    }
+  ],
+  "en": [
+    {
+      "company": "Rancho Soluções em Tecnologia",
+      "position": "Full Stack Developer",
+      "duration": { "start": "Feb, 2019", "finish": "Sep, 2022" },
+      "summary": "Context: iRancho application, a software for beef cattle management consisting of a single page application (SPA) with some of its functionality offline for data collection integrated with a REST API.",
+      "bullet_points": [
+        "Bug fixing, development of improvements, and new features in the project",
+        "Support junior developers;",
+        "Implementation of new modules in the system, developing new frontend components, new API services on the backend, and modeling new tables in the database;",
+        "API documentation with Swagger and development of an integration enabling third-party systems to fetch data directly from the API;",
+        "Testing and approval of a new blockchain-based data storage application for cattle data;",
+        "Development of integration between the iRancho API and the new blockchain-based application;"
+      ],
+      "skills": "JavaScript · Sass · Bootstrap · VueJS · NodeJs · Express.js · MySQL · Sequelize.js · Blockchain: Hyperledger Fabric" 
+    }
+  ]
+}

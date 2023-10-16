@@ -1,0 +1,42 @@
+{
+  "pt": [
+    {
+      "project": "Template para currículos",
+      "url": "https://gtoborges.github.io/resume-template/",
+      "role": "",
+      "duration": "",
+      "description": "Um template open source para criação de um currículo customizado refeito com Vue, Vite e Github Pages",
+      "bullet_points": [],
+      "stack": "JavaScript · Sass · VueJS · Vite · Github Pages"
+    },
+    {
+      "project": "Aplicação descentralizada baseada em blockchain",
+      "url": "https://github.com/gtoborges/pupilometro-ethereum-dapp/",
+      "role": "",
+      "duration": "",
+      "description": "Uma aplicação baseada em blockchain para armazenamento de dados sensíveis de pacientes de maneira descentralizada desenvolvida como parte do trabalho de conclusão de curso. A monografia pode ser encontrada no repositório para melhor contexto da aplicação.",
+      "bullet_points": [],
+      "stack": "Typescript · VueJS · NodeJs · IPFS · XMTP · Solidity"
+    }
+  ],
+  "en": [
+    {
+      "project": "Resumé template",
+      "url": "https://gtoborges.github.io/resume-template/",
+      "role": "",
+      "duration": "",
+      "description": "An open source template to create a custom resumé forked and rebuilt with Vue, Vite and Github Pages",
+      "bullet_points": [],
+      "stack": "JavaScript · Sass · VueJS · Vite · Github Pages"
+    },
+    {
+      "project": "Blockchain based dApp",
+      "url": "https://github.com/gtoborges/pupilometro-ethereum-dapp/",
+      "role": "",
+      "duration": "",
+      "description": "A decentralized blockchain based application to store sensitive data of patients in the IPFS platform developed as part of my final paper. You can find the final paper in the repository for furthermore context of the application.",
+      "bullet_points": [],
+      "stack": "Typescript · VueJS · NodeJs · IPFS · XMTP · Solidity"
+    }
+  ]
+}

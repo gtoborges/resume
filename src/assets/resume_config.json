@@ -1,0 +1,85 @@
+{
+  "languages": {
+    "en": "English",
+    "pt": "Português"
+  },
+  "avatar": false,
+  "name": "Augusto A. Borges",
+  "show_contact": true,
+  "social_links": [
+    {
+      "name": "Github",
+      "show": true,
+      "url": "https://github.com/gtoborges"
+    },
+    {
+      "name": "Twitter",
+      "show": false,
+      "url": "http://twitter.com/"
+    },
+    {
+      "name": "Facebook",
+      "show": false,
+      "url": "https://www.facebook.com/augustoaraujoborges"
+    },
+    {
+      "name": "Linkedin",
+      "show": true,
+      "url": "https://www.linkedin.com/"
+    },
+    {
+      "name": "Instagram",
+      "show": false,
+      "url": "https://www.instagram.com"
+    },
+    {
+      "name": "Website",
+      "show": false,
+      "url": "http://www.google.com"
+    },
+    {
+      "name": "Medium",
+      "show": false,
+      "url": "https://medium.com/"
+    },
+    {
+      "name": "Pdf",
+      "show": true,
+      "url": "curriculo_augustoborges.pdf"
+    }
+  ],
+  "contact": "gtoborges@gmail.com",
+  "en": {
+    "resume_title": "",
+    "resume_intro": "I'm a recent Information Systems graduate currently looking for new opportunities in frontend, backend, or blockchain development. You can find some of my links above or send me an email at gtoborges@gmail.com",
+    "contact_button_message": "Contact me",
+    "experiences": { "title": "Professional experiences", "skills": "Technologies" },
+    "education": { "title": "Education" },
+    "projects": { "title": "Projects", "skills": "Technologies" },
+    "skills": { "title": "Skills" },
+    "recognitions": { "title": "Recognitions" },
+    "associations": { "title": "Associations" },
+    "links": { "title": "Additional Links" }
+  },
+  "pt": {
+    "resume_title": "",
+    "resume_intro": "Recém graduado em Sistemas de Informação atualmente buscando por novas oportunidades na área de desenvolvimento web, seja frontend, backend, e blockchain. Você pode encontrar alguns links meus acima ou mandar um email para gtoborges@gmail.com",
+    "contact_button_message": "Entre em contato",
+    "experiences": { "title": "Experiencias profissionais", "skills": "Tecnologias" },
+    "education": { "title": "Educação" },
+    "projects": { "title": "Projetos", "skills": "Tecnologias" },
+    "skills": { "title": "Habilidades" },
+    "recognitions": { "title": "Reconhecimento" },
+    "associations": { "title": "Associações" },
+    "links": { "title": "Links adicionais" }
+  },
+  "resume_sections": {
+    "experiences": true,
+    "education": true,
+    "projects": true,
+    "skills": false,
+    "recognitions": false,
+    "associations": false,
+    "links": false
+  }
+}

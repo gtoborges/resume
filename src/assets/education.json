@@ -1,0 +1,27 @@
+{
+  "pt": [
+    {
+      "institution": "Universidade Federal de Goiás",
+      "degree": "Sistemas de Informação",
+      "duration": {
+        "start": "2016",
+        "finish": "2023"
+      },
+      "awards": [],
+      "award": "",
+      "summary": "Para o meu Trabalho de Conclusão de Curso eu desenvolvi uma aplicação descentralizada baseada em blockchain. Você pode encontrar mais sobre logo abaixo em Projetos"
+    }  ],
+  "en": [
+    {
+      "institution": "Federal University of Goiás",
+      "degree": "Information Systems",
+      "duration": {
+        "start": "2016",
+        "finish": "2023"
+      },
+      "awards": [],
+      "award": "",
+      "summary": "For my final paper I developed a blockchain based dApp for the Ethereum ecosystem. You can find more about it in the projects section."
+    }
+  ]
+}
