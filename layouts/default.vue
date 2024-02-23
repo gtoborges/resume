@@ -1,6 +1,5 @@
 <script setup>
 import resume_config from '../assets/config/resume_config.json'
-console.log(resume_config)
 </script>
 <template>
   <nav style="display:flex; gap:10px;">

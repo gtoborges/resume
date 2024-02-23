@@ -1,6 +1,7 @@
 <script setup>
-import experiences from '../assets/experiences.json' 
+import experiences from '../assets/config/experiences.json' 
 const props = defineProps(['lang', 'translations'])
+console.log(props)
 </script>
 
 <template>

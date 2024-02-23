@@ -1,5 +1,5 @@
 <script setup>
-import links from '../assets/links.json'  
+import links from '../assets/config/links.json'  
 const props = defineProps(['lang', 'translations'])
 </script>
 

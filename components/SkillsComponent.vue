@@ -1,5 +1,5 @@
 <script setup>
-import skills from '../assets/skills.json'
+import skills from '../assets/config/skills.json'
 const props = defineProps(['lang', 'translations'])
 </script>
 
