@@ -2,21 +2,23 @@
 import resume_config from '../assets/config/resume_config.json'
 const lang = Object.keys(resume_config.languages)[0]
 
-definePageMeta({
-  layout: "default"  
+useHead({
+  titleTemplate: () => {
+    return `${resume_config.name}`
+  }
 })
 </script>
 <template>
   <body class="theme-default wrapper">
-    <!-- <div class="no-print select-language-container"> -->
-    <!--   <select v-if="Object.keys(resume_config.languages).length > 1"  -->
-    <!--     v-model="lang"  -->
-    <!--     name="languages"  -->
-    <!--     id="lang"    -->
-    <!--   > -->
-    <!--     <option v-for="language of Object.keys(resume_config.languages)" :value="language">{{resume_config.languages[language]}}</option> -->
-    <!--   </select> -->
-    <!-- </div> -->
+    <div class="no-print select-language-container">
+      <select v-if="Object.keys(resume_config.languages).length > 1" 
+        v-model="lang" 
+        name="languages" 
+        id="lang"   
+      >
+        <option v-for="language of Object.keys(resume_config.languages)" :value="language">{{resume_config.languages[language]}}</option>
+      </select>
+    </div>
     <HeaderComponent :config="resume_config" :lang="lang"/>
     <ExperiencesComponent 
       v-if="resume_config.resume_sections['experiences']" 
