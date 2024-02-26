@@ -17,7 +17,7 @@ const components = {
 
 <template>
   <header class="page-header"> 
-    <img src="../images/avatar.png" 
+    <img src="../assets/images/avatar.png" 
       alt="my photo" 
       class="avatar no-print" 
       item-prop="image"

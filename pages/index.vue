@@ -5,18 +5,35 @@ const lang = Object.keys(resume_config.languages)[0]
 useHead({
   titleTemplate: () => {
     return `${resume_config.name}`
+  },
+  htmlAttrs: {
+    lang: lang
+  },
+  link: [
+    {
+      rel: 'stylesheet',
+      href: 'https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,300,800,700',
+      crossorigin: '',
+    },
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicon.png'
+    }  
+  ],
+  bodyAttrs: {
+    class: "theme-default wrapper"
   }
 })
 </script>
 <template>
-  <body class="theme-default wrapper">
     <div class="no-print select-language-container">
       <select v-if="Object.keys(resume_config.languages).length > 1" 
         v-model="lang" 
         name="languages" 
         id="lang"   
       >
-        <option v-for="language of Object.keys(resume_config.languages)" :value="language">{{resume_config.languages[language]}}</option>
+        <option v-for="language of Object.keys(resume_config.languages)" :value="language" :key="language">{{resume_config.languages[language]}}</option>
       </select>
     </div>
     <HeaderComponent :config="resume_config" :lang="lang"/>
@@ -55,5 +72,5 @@ useHead({
       :lang="lang"
       :translations="resume_config[lang]['links']"
     />
-  </body>
 </template>
+
