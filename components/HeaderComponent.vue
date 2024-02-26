@@ -29,7 +29,9 @@ const components = {
       <ul class="icon-links" >
         <template v-for="social of props.config.social_links">
           <li class="icon-link-item" v-if="social.show">
-            <a class="icon-link" :href="social.url"><component :is="components[social.name]"></component></a>
+            <a class="icon-link" :href="social.url" :aria-label="`Link to access the ${social.name} of ${config.name}`">
+              <component :is="components[social.name]"></component>
+            </a>
           </li>
         </template>
       </ul>
