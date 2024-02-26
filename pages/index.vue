@@ -1,6 +1,6 @@
 <script setup>
 import resume_config from '../assets/config/resume_config.json'
-const lang = Object.keys(resume_config.languages)[0]
+const lang = ref(Object.keys(resume_config.languages)[0])
 
 useHead({
   titleTemplate: () => {
@@ -25,6 +25,20 @@ useHead({
     class: "theme-default wrapper"
   }
 })
+
+useSeoMeta({
+  description: `Resumé of ${resume_config.name}`,
+  ogTitle:  `${resume_config.name}`,
+  ogDescription: `Resumé of ${resume_config.name}`,
+  ogImage: '/avatar.png',
+  ogUrl: 'https://gtoborges.github.io/resume/',
+  twitterTitle: `${resume_config.name}`,
+  twitterDescription: `Resumé of ${resume_config.name}`,
+  twitterImage: '/avatar.png',
+  twitterCard: 'summary'
+})
+
+// watch(lang)
 </script>
 <template>
   <div class="no-print select-language-container">
