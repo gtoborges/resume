@@ -21,6 +21,7 @@ const components = {
       alt="my photo" 
       class="avatar no-print" 
       item-prop="image"
+      width="95" height="95"
       v-if="props.config.avatar"
     >
     <h1 class="header-name" item-prop="name">{{ props.config.name }}</h1>
