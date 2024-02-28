@@ -2,13 +2,17 @@ import resume from '../assets/config/resume_config.json'
 
 export default function useUseHead() {
   const resume_config = resume
+  
+  const routeParams = useRoute().params
+  let lang = routeParams.lang
+  if(!lang) lang = Object.keys(resume_config.languages)[0]
 
   useHead({
     titleTemplate: () => {
       return `${resume_config.name}`
     },
     htmlAttrs: {
-      lang: Object.keys(resume_config.languages)[0]
+      lang: lang
     },
     link: [
       {
@@ -40,6 +44,6 @@ export default function useUseHead() {
   })
 
   return {
-    resume_config
+    resume_config, lang
   }
 }

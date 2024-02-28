@@ -1,6 +1,7 @@
 <script setup>
-const route = useRoute()
+const { resume_config, lang } = useResumeConfig()
+
 </script>
 <template>
-  <div>{{ route.params }}</div>
+  <MainComponent :lang="lang" :resume_config="resume_config" />
 </template>
