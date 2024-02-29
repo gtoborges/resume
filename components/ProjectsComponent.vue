@@ -1,5 +1,5 @@
 <script setup>
-import projects from '../assets/projects.json'
+import projects from '../assets/config/projects.json'
 const props = defineProps(['lang', 'translations'])
 </script>
 

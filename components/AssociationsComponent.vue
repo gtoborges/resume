@@ -1,5 +1,5 @@
 <script setup>
-import associations from '../assets/associations.json'
+import associations from '../assets/config/associations.json'
 const props = defineProps(['lang', 'translations'])
 </script>
 

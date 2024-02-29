@@ -17,10 +17,11 @@ const components = {
 
 <template>
   <header class="page-header"> 
-    <img src="../images/avatar.png" 
+    <img src="/avatar.png" 
       alt="my photo" 
       class="avatar no-print" 
       item-prop="image"
+      width="95" height="95"
       v-if="props.config.avatar"
     >
     <h1 class="header-name" item-prop="name">{{ props.config.name }}</h1>
@@ -29,7 +30,9 @@ const components = {
       <ul class="icon-links" >
         <template v-for="social of props.config.social_links">
           <li class="icon-link-item" v-if="social.show">
-            <a class="icon-link" :href="social.url"><component :is="components[social.name]"></component></a>
+            <a class="icon-link" :href="social.url" :aria-label="`Link to access the ${social.name} of ${config.name}`">
+              <component :is="components[social.name]"></component>
+            </a>
           </li>
         </template>
       </ul>

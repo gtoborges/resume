@@ -1,5 +1,5 @@
 <script setup>
-import education from '../assets/education.json'
+import education from '../assets/config/education.json'
 const props = defineProps(['lang', 'translations'])
 </script>
 

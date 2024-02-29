@@ -1,5 +1,5 @@
 <script setup>
-import skills from '../assets/skills.json'
+import links from '../assets/config/links.json'  
 const props = defineProps(['lang', 'translations'])
 </script>
 
@@ -8,9 +8,10 @@ const props = defineProps(['lang', 'translations'])
     <header class="section-header">
       <h2>{{ props.translations.title }}</h2>
     </header>
-    <div class="resume-item" v-for="skill in skills[props.lang]">
-      <h4 class="resume-item-details">{{ skill.name }}</h4>
-      <p class="resume-item-copy">{{ skill.description }}</p>
+    <div class="resume-item">
+      <ul class="resume-item-list">
+        <li v-for="link in links[props.lang]"><a :href="link.url">{{ link.description }}</a></li>
+      </ul>
     </div>
   </section>
 </template>

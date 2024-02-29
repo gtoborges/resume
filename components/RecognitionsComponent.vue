@@ -1,5 +1,5 @@
 <script setup>
-import recognitions from '../assets/recognitions.json'
+import recognitions from '../assets/config/recognitions.json'
 const props = defineProps(['lang', 'translations'])
 </script>
 
