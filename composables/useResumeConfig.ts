@@ -23,7 +23,7 @@ export default function useUseHead() {
       {
         rel: 'icon',
         type: 'image/png',
-        href: '/favicon.png'
+        href: '/resume/favicon.png'
       }  
     ],
     bodyAttrs: {
@@ -35,11 +35,11 @@ export default function useUseHead() {
     description: `Resumé of ${resume_config.name}`,
     ogTitle:  `${resume_config.name}`,
     ogDescription: `Resumé of ${resume_config.name}`,
-    ogImage: '/avatar.png',
+    ogImage: '/resume/avatar.png',
     ogUrl: 'https://gtoborges.github.io/resume/',
     twitterTitle: `${resume_config.name}`,
     twitterDescription: `Resumé of ${resume_config.name}`,
-    twitterImage: '/avatar.png',
+    twitterImage: '/resume/avatar.png',
     twitterCard: 'summary'
   })
 

@@ -3,7 +3,7 @@
     "en": "English",
     "pt": "Português"
   },
-  "avatar": false,
+  "avatar": true,
   "name": "Augusto A. Borges",
   "show_contact": true,
   "social_links": [
