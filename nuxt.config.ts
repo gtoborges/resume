@@ -3,5 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: [
     '~/assets/scss/global.scss',
-  ]
+  ],
+  app: {
+    baseURL: '/resume/'
+  }
 })
