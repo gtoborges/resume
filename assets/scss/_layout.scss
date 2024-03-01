@@ -13,8 +13,7 @@
 
 .select-language-container {
   display: flex;
-  justify-content: flex-end;
-  padding-top: 1.5rem;
+  flex-direction: column
 }
 
 // Grid system

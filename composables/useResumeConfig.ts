@@ -4,7 +4,6 @@ export default function useUseHead() {
   const resume_config = resume
   
   const routeParams = useRoute().params
-  console.log(routeParams)
   let lang = routeParams.lang
   if(!lang) lang = Object.keys(resume_config.languages)[0]
 

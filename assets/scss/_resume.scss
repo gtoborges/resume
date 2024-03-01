@@ -2,6 +2,10 @@
 // ---------------------------------------/
 
 // util
+.language-label {
+  font-size: .8rem;
+  font-weight: 700;
+}
 
 .section-header {
   @include section_border;

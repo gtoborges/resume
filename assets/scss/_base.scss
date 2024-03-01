@@ -17,6 +17,12 @@ body{
   line-height: 1.5;
 }
 
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1.5rem;
+}
+
 .wrapper:before,
 .wrapper:after { content:""; display:table; }
 .wrapper:after { clear: both; }
