@@ -1,6 +1,17 @@
 {
   "pt": [
     {
+      "institution": "Full Cycle",
+      "degree": "Pós-graduação em Arquitetura de Software",
+      "duration": {
+        "start": "2025",
+        "finish": "Atualmente"
+      },
+      "awards": [],
+      "award": "",
+      "summary": ""
+    },
+    {
       "institution": "Universidade Federal de Goiás",
       "degree": "Sistemas de Informação",
       "duration": {
@@ -12,6 +23,17 @@
       "summary": "Para o meu Trabalho de Conclusão de Curso eu desenvolvi uma aplicação descentralizada baseada em blockchain. Você pode encontrar mais sobre logo abaixo em Projetos"
     }  ],
   "en": [
+    {
+      "institution": "Full Cycle",
+      "degree": "Postgraduate Degree",
+      "duration": {
+        "start": "2025",
+        "finish": "Present"
+      },
+      "awards": [],
+      "award": "",
+      "summary": "Software Architecture"
+    },
     {
       "institution": "Federal University of Goiás",
       "degree": "Information Systems",
