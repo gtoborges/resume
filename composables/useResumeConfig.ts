@@ -4,7 +4,7 @@ export default function useUseHead() {
   const resume_config = resume
   
   const routeParams = useRoute().params
-  let lang = routeParams.lang
+  let lang = routeParams.lang as string
   if(!lang) lang = Object.keys(resume_config.languages)[0]
 
   useHead({
@@ -35,11 +35,11 @@ export default function useUseHead() {
     description: `Resumé of ${resume_config.name}`,
     ogTitle:  `${resume_config.name}`,
     ogDescription: `Resumé of ${resume_config.name}`,
-    ogImage: '/resume/avatar.png',
+    ogImage: '/resume/ogImage.png',
     ogUrl: 'https://gtoborges.github.io/resume/',
     twitterTitle: `${resume_config.name}`,
     twitterDescription: `Resumé of ${resume_config.name}`,
-    twitterImage: '/resume/avatar.png',
+    twitterImage: '/resume/ogImage.png',
     twitterCard: 'summary'
   })
 

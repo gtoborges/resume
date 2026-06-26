@@ -1,9 +1,24 @@
 {
   "pt": [
     {
+      "company": "Aliare",
+      "position": "Desenvolvedor Front-end",
+      "duration": { "start": "Junho, 2024", "finish": "Abril, 2026" },
+      "summary": "Contexto: aplicação Assinei, software de gestão de documentos, contratos e assinaturas eletrônicas",
+      "bullet_points": [
+        "Condução de refatorações aplicando boas práticas de arquitetura e performance, resultando em uma redução superior a 70% no bundle da aplicação;",
+        "Desenvolvimento de otimizações de performance utilizando estratégias de cache e code splitting, reduzindo o tempo de carregamento da aplicação em mais de 3 segundos e contribuindo diretamente para o alcance de aproximadamente 110% da meta de NPS;",
+        "Participação ativa em refinamentos técnicos junto aos times de Produto e Design, garantindo viabilidade técnica e fidelidade visual aos protótipos do Figma em ambientes desktop e mobile;",
+        "Desenvolvimento de novas features utilizando Vue.js, TypeScript, gerenciamento de estado com Vuex e consumo de APIs REST, com foco em qualidade de código e colaboração em ambientes ágeis utilizando git, gitflow e pull requests",
+        "Implementação e manutenção de componentes reutilizáveis, Design System e testes unitários, promovendo maior padronização, estabilidade e eficiência no desenvolvimento;",
+        "Atuação no desenvolvimento, sustentação e evolução de funcionalidades de média e alta complexidade, contribuindo para a escalabilidade da aplicação, melhoria contínua da experiência dos usuários e o atingimento das metas de produtividade;"
+      ],
+      "skills": "TypeScript · VueJs · Nuxt · Vuex · Jest · Sass · HTML5 · CSS3 · ElementUI · Azure DevOps" 
+    },
+    {
       "company": "Rancho Soluções em Tecnologia",
       "position": "Full Stack Developer",
-      "duration": { "start": "Fevereiro, 2019", "finish": "Setembro, 2022" },
+      "duration": { "start": "Fevereiro, 2019", "finish": "Janeiro, 2023" },
       "summary": "Contexto: aplicação iRancho, um software para gestão de pecuária de corte que consiste de uma single page application (SPA) com parte do seu funcionamento offline para a coleta de dados integrado a uma API REST.",
       "bullet_points": [
         "Correção de bugs, desenvolvimento de melhorias e novas features no projeto;",
@@ -13,14 +28,14 @@
         "Teste e homologação de uma nova aplicação baseada em blockchain para armazenamento de dados do gado;",
         "Desenvolvimento de integração entre API do iRancho com a nova aplicação baseada em blockchain;"
       ],
-      "skills": "JavaScript · Sass · Bootstrap · VueJS · NodeJs · Express.js · MySQL · Sequelize.js · Blockchain: Hyperledger Fabric" 
+      "skills": "JavaScript · Sass · Bootstrap · VueJS · NodeJs · Express.js · MySQL · Sequelize.js · Blockchain · Hyperledger Fabric · Gitlab" 
     }
   ],
   "en": [
     {
       "company": "Rancho Soluções em Tecnologia",
       "position": "Full Stack Developer",
-      "duration": { "start": "Feb, 2019", "finish": "Sep, 2022" },
+      "duration": { "start": "Feb, 2019", "finish": "Jan, 2023" },
       "summary": "Context: iRancho application, a software for beef cattle management consisting of a single page application (SPA) with some of its functionality offline for data collection integrated with a REST API.",
       "bullet_points": [
         "Bug fixing, development of improvements, and new features in the project",
@@ -30,7 +45,7 @@
         "Testing and approval of a new blockchain-based data storage application for cattle data;",
         "Development of integration between the iRancho API and the new blockchain-based application;"
       ],
-      "skills": "JavaScript · Sass · Bootstrap · VueJS · NodeJs · Express.js · MySQL · Sequelize.js · Blockchain: Hyperledger Fabric" 
+      "skills": "JavaScript · Sass · HTML5 · CSS3 · Bootstrap · VueJS · NodeJs · Express.js · MySQL · Sequelize.js · Blockchain: Hyperledger Fabric" 
     }
   ]
 }

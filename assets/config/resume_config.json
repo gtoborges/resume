@@ -51,7 +51,7 @@
   "contact": "gtoborges@gmail.com",
   "en": {
     "resume_title": "",
-    "resume_intro": "I'm a recent Information Systems graduate currently looking for new opportunities in frontend, backend, or blockchain development. You can find some of my links above or send me an email at gtoborges@gmail.com",
+    "resume_intro": "Front-end Developer with over 5 years of experience building and evolving web applications, with a strong focus on performance, scalability, and user experience. Experienced in developing modern SPAs using Vue.js, TypeScript, and REST APIs, as well as contributing across the full stack with Node.js, Express, and relational databases. You can find some of my links above or send me an email at gtoborges@gmail.com",
     "contact_button_message": "Contact me",
     "experiences": { "title": "Professional experiences", "skills": "Technologies" },
     "education": { "title": "Education" },
@@ -63,9 +63,9 @@
   },
   "pt": {
     "resume_title": "",
-    "resume_intro": "Recém graduado em Sistemas de Informação atualmente buscando por novas oportunidades na área de desenvolvimento web, seja frontend, backend, e blockchain. Você pode encontrar alguns links meus acima ou mandar um email para gtoborges@gmail.com",
+    "resume_intro": "Desenvolvedor Front-end com mais de 5 anos de experiência no desenvolvimento e evolução de aplicações web, com foco em performance, escalabilidade e experiência do usuário. Possui sólida atuação na construção de SPAs utilizando Vue.js, TypeScript e APIs REST, além de experiência em desenvolvimento Full Stack com Node.js, Express e bancos de dados relacionais. Você pode encontrar alguns links meus acima ou mandar um email para gtoborges@gmail.com",
     "contact_button_message": "Entre em contato",
-    "experiences": { "title": "Experiencias profissionais", "skills": "Tecnologias" },
+    "experiences": { "title": "Experiências profissionais", "skills": "Tecnologias" },
     "education": { "title": "Educação" },
     "projects": { "title": "Projetos", "skills": "Tecnologias" },
     "skills": { "title": "Habilidades" },
